@@ -16,7 +16,7 @@ Describe 'ConvertTo-DateTime Function' {
 
   It 'running tests against default formats return DateTime' -TestCases $DefaultFormatTestCase {
     param ($DateString, $Format)
-    (ConvertTo-DateTime @PSBoundParameters).GetType().Name | Should Be 'DateTime'
+    ConvertTo-DateTime @PSBoundParameters | Should BeOfType DateTime
   }
 
   It 'running test against non-default format returns nothing' {
@@ -24,7 +24,7 @@ Describe 'ConvertTo-DateTime Function' {
   }
 
   It 'running test against specified format returns DateTime object' {
-    (ConvertTo-DateTime @NonDefaultFormatTestCase).GetType().Name | Should Be 'DateTime'
+    ConvertTo-DateTime @NonDefaultFormatTestCase | Should BeOfType DateTime
   }
 
 }
