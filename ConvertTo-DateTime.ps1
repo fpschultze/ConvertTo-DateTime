@@ -1,40 +1,9 @@
-﻿<#PSScriptInfo
-
-.VERSION 1.0.3
-
-.GUID ded1648a-96e1-4b08-b8bb-bc774c27f272
-
-.AUTHOR Frank Peter Schultze
-
-.COMPANYNAME www.out-web.net
-
-.COPYRIGHT 
-
-.TAGS Type Conversion DateTime
-
-.LICENSEURI 
-
-.PROJECTURI https://github.com/fpschultze/ConvertTo-DateTime/
-
-.ICONURI 
-
-.EXTERNALMODULEDEPENDENCIES 
-
-.REQUIREDSCRIPTS 
-
-.EXTERNALSCRIPTDEPENDENCIES 
-
-.RELEASENOTES
-Added PSScriptInfo
-
-#>
-
-<#
-  .SYNOPSIS
+﻿<#
+  .Synopsis
   Converts a date string to DateTime object.
 
   .DESCRIPTION
-  Tries to convert the specified string representation of a date and time to its DateTime equivalent.
+  Converts the specified string representation of a date and time to its DateTime equivalent.
 
   .EXAMPLE
   '19.05.2016' | ConvertTo-DateTime
