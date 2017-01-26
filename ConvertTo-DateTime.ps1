@@ -25,7 +25,7 @@ function ConvertTo-DateTime
     # An array of allowable formats of DateString.
     [Parameter()]
     [String[]]
-    $Format = ('yyyyMMdd', 'yyyy-MM-dd', 'dd.MM.yyyy')
+    $Format
   )
   $OutputObject = Get-Date
   $Result = [datetime]::TryParseExact($DateString,
