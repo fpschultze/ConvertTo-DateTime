@@ -1,4 +1,4 @@
-[![Build status](https://ci.appveyor.com/api/projects/status/f3cl7slwdhpv573q?svg=true)](https://ci.appveyor.com/project/fpschultze/convertto-datetime)
+[![Build status](https://ci.appveyor.com/api/projects/status/9wr0vfb3qfgy4lc7?svg=true)](https://ci.appveyor.com/project/fpschultze/convertto-datetime)
 
 # ConvertTo-DateTime PowerShell Function
   .Synopsis
